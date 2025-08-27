@@ -14,23 +14,23 @@ export default function App() {
 
     const [cvData, setCvData] = useState({
         personalInfo: {
-            name: 'Jane Doe',
-            title: 'Senior Product Designer',
-            phone: '+1 (555) 123-4567',
-            email: 'jane.doe@example.com',
-            location: 'San Francisco, CA',
-            website: 'janedoe.design',
-            profilePicture: 'https://placehold.co/400x400/a78bfa/ffffff?text=JD',
+            name: 'Adnane boulman',
+            title: 'Ingénieur Logiciel',
+            phone: '+212 6 12 34 56 78',
+            email: 'adnaninosidrjal@gmail.com',
+            location: 'Ain Aouda, Maroc',
+            website: 'https://yagenegates.me',
+            profilePicture: 'https://placehold.co/400x400/a78bfa/ffffff?text=AE',
         },
         experience: [
-            { company: 'Innovate Inc.', role: 'Lead UX Designer', duration: 'Jan 2020 - Present', description: 'Led the design of a new flagship product, resulting in a 25% increase in user engagement. Managed a team of 4 junior designers.' },
-            { company: 'Tech Solutions', role: 'UI/UX Designer', duration: 'Jun 2017 - Dec 2019', description: 'Redesigned the main dashboard for a SaaS application, improving user satisfaction by 15%. Collaborated with developers to implement pixel-perfect designs.' },
+            { company: 'OCP Group', role: 'Développeur Senior', duration: 'Jan 2020 - Présent', description: 'Direction de la conception d\'un nouveau produit phare, entraînant une augmentation de 25% de l\'engagement des utilisateurs. Gestion d\'une équipe de 4 développeurs juniors.' },
+            { company: 'Inwi', role: 'Développeur Web', duration: 'Juin 2017 - Déc 2019', description: 'Refonte du tableau de bord principal pour une application SaaS, améliorant la satisfaction des utilisateurs de 15%. Collaboration avec les développeurs pour mettre en œuvre des conceptions parfaites au pixel près.' },
         ],
         education: [
-            { institution: 'Design University', degree: 'M.A. in Human-Computer Interaction', duration: '2015 - 2017' },
-            { institution: 'State College', degree: 'B.S. in Graphic Design', duration: '2011 - 2015' },
+            { institution: 'Université Al Akhawayn', degree: 'Master en Génie Logiciel', duration: '2015 - 2017' },
+            { institution: 'Lycée Descartes', degree: 'Baccalauréat Scientifique', duration: '2011 - 2015' },
         ],
-        skills: ['Figma', 'Sketch', 'Adobe XD', 'Prototyping', 'User Research', 'HTML/CSS', 'JavaScript', 'React'],
+        skills: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Gestion de Projet', 'Agile', 'Scrum'],
     });
     const [activeTemplate, setActiveTemplate] = useState('modern');
     const cvPreviewRef = useRef(null);

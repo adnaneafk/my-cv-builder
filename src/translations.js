@@ -1,5 +1,3 @@
-// src/translations.js
-
 export const translations = {
   en: {
     name: 'English',
